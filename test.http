@@ -1,0 +1,26 @@
+### GET request to test the home route
+GET http://localhost:8080
+
+
+
+
+### post request to test for shorten a single url
+POST http://localhost:8080/shorten
+Content-Type: application/json
+
+{
+  "url": "https://www.google.com"
+}
+
+### get request to test for redirect
+# @no-redirect
+GET http://localhost:8080/r/djme
+
+### post request for getting batch responces for batch request
+POST http://localhost:8080/batch
+Content-Type: application/json
+
+[
+  "https://www.apple.com",
+  "https://www.github.com"
+]
