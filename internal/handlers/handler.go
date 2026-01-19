@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"url-shortener/storage"
+	"url-shortener/internal/storage"
 )
 
 // Request structure for shorten url

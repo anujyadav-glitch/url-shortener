@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"strings"
 	"testing"
-	"url-shortener/storage"
+	"url-shortener/internal/storage"
 )
 
 // 1. Test the Home/Root Route
