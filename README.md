@@ -1,5 +1,9 @@
 
 ## ✨ Key Features
+
+https://github.com/user-attachments/assets/a5c0e70d-a73e-4607-abc1-e7f21767668a
+
+
 - **Deterministic Hashing:** Every URL gets a unique, short ID based on an internal counter.
 - **Blazing Fast:** Since everything is stored in memory, redirects happen almost instantly.
 - **Bulk Processing:** I added a batch route so you can shorten multiple links in one go.
